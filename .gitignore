@@ -1,0 +1,64 @@
+# ▶ Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ▶ Virtualenv
+venv/
+.env/
+env/
+ENV/
+*.venv
+
+# ▶ Jupyter/IPython
+.ipynb_checkpoints/
+
+# ▶ Logs
+*.log
+*.log.*
+
+# ▶ Qt (QtCreator, PyQt Designer 등)
+*.user
+*.pro.user*
+*.qrc~
+*.autosave
+*.moc
+*.qmlc
+*.jsc
+*.rcc
+*.pyc
+
+# ▶ UI designer generated Python code (optional)
+ui_*.py
+
+# ▶ VS Code
+.vscode/
+
+# ▶ Mac/Linux system files
+.DS_Store
+Thumbs.db
+
+# ▶ Raspberry Pi specific (if applicable)
+*.swp
+*.bak
+*.tmp
+*.orig
+
+# ▶ CAN logs (if saving)
+*.blf
+*.trc
+*.candump
+
+# ▶ Compiled binaries or C extensions (if any)
+*.o
+*.out
+*.a
+*.so
