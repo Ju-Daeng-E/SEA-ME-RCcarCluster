@@ -92,12 +92,12 @@ This project is a **wireless control and real-time digital dashboard system** fo
 
     - OLED display output (SSD1306 at 0x3C).
 ```
-Address	|| Component    || Description
+Address	|| Component  || Description
 ----------------------------------------------
-0x40	|| PCA9685	   || Steering motor PWM
-0x60	|| PCA9685	   || Throttle motor PWM
-0x41	|| INA219	   || Battery monitoring
-0x3C	|| SSD1306	   || OLED display (optional)
+0x40	|| PCA9685    || Steering motor PWM
+0x60	|| PCA9685    || Throttle motor PWM
+0x41	|| INA219     || Battery monitoring
+0x3C	|| SSD1306    || OLED display (optional)
 ```
 ### 📺 UI Dashboard (via Pygame)
 - Continuously shows:
