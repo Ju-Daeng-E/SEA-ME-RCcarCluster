@@ -28,7 +28,7 @@ def render_dashboard(screen, velocity, gear_number, drive_mode):
     font = pygame.font.Font(None, 48)
 
     vel_text = font.render(f"Speed: {velocity:.2f} km/h", True, (0, 255, 0))
-    gear_text = font.render(f"Gear: {gear_number}단", True, (255, 255, 0))
+    gear_text = font.render(f"Gear: {gear_number}", True, (255, 255, 0))
     mode_text = font.render(f"Drive Mode: {drive_mode}", True, (0, 128, 255))
 
     screen.blit(vel_text, (30, 30))
