@@ -1,0 +1,8 @@
+# BMW PiRacer Controller Logs Directory
+# 
+# This directory contains session log files from the BMW PiRacer controller.
+# Log files are automatically created with timestamps when the application runs.
+# 
+# Log file format: bmw_controller_YYYYMMDD_HHMMSS.log
+# 
+# Old log files are automatically cleaned up, keeping only the latest 10 files.
