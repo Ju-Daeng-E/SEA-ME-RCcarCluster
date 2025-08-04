@@ -1,0 +1,17 @@
+# BMW PiRacer Integrated Control System Dependencies
+
+# Core dependencies
+python-can>=4.0.0
+crccheck>=1.0.0
+RPi.GPIO>=0.7.0
+
+# GUI dependencies (optional)
+PyQt5>=5.15.0
+
+# PiRacer dependencies (optional - may not be available via pip)
+# piracer>=1.0.0
+
+# Development dependencies (optional)
+# pytest>=6.0.0
+# black>=21.0.0
+# flake8>=3.8.0 

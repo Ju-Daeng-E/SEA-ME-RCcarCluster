@@ -4,7 +4,7 @@ import time
 from multiprocessing import Value
 
 def can_receive_velocity(shared_velocity):
-    bus = can.Bus(interface='socketcan', channel='can1') 
+    bus = can.Bus(interface='socketcan', channel='can0') 
     print("📡 CAN transeive start (ID 0x100)...")
 
     while True:

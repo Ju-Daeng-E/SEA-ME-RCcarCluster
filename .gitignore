@@ -25,40 +25,54 @@ ENV/
 *.log
 *.log.*
 
-# ▶ Qt (QtCreator, PyQt Designer 등)
+# ▶ Temporary/Test files
+*.swp
+*.bak
+*.tmp
+*.orig
+*_test.py
+*_debug.py
+
+# ▶ Development artifacts (removed BMW controller files)
+BMW_GWS/bmw_controller_fixed_gui.py
+BMW_GWS/bmw_controller_minimal_gui.py
+BMW_GWS/bmw_controller_nogui.py
+BMW_GWS/bmw_controller_original_fixed.py
+BMW_GWS/bmw_controller_quick_fix.py
+BMW_GWS/bmw_controller_safe.py
+BMW_GWS/bmw_controller_segfault_safe.py
+BMW_GWS/bmw_gear_toggle_controller.py
+BMW_GWS/bmw_modular/bmw_can_controller.py
+BMW_GWS/bmw_modular/gui_widgets.py
+BMW_GWS/bmw_modular/main_controller.py
+BMW_GWS/bmw_modular/piracer_controller.py
+BMW_GWS/bmw_piracer_integrated_control.py
+
+# ▶ IDE files
+.vscode/
+.idea/
 *.user
 *.pro.user*
+
+# ▶ Qt/GUI artifacts
 *.qrc~
 *.autosave
 *.moc
 *.qmlc
 *.jsc
 *.rcc
-*.pyc
-
-# ▶ UI designer generated Python code (optional)
 ui_*.py
 
-# ▶ VS Code
-.vscode/
-
-# ▶ Mac/Linux system files
+# ▶ System files
 .DS_Store
 Thumbs.db
 
-# ▶ Raspberry Pi specific (if applicable)
-*.swp
-*.bak
-*.tmp
-*.orig
-
-# ▶ CAN logs (if saving)
+# ▶ CAN logs
 *.blf
 *.trc
 *.candump
 
-# ▶ Compiled binaries or C extensions (if any)
+# ▶ Compiled binaries
 *.o
 *.out
 *.a
-*.so
